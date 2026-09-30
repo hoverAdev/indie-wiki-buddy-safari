@@ -1,0 +1,3 @@
+# Copied from https://github.com/github/gitignore/blob/main/Global/Xcode.gitignore
+## User settings
+xcuserdata/
