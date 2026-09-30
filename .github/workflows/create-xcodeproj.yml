@@ -1,0 +1,46 @@
+name: Create Xcode Project
+on:
+  schedule:
+    - cron: '30 7 * * 2'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  create-project:
+    runs-on: macos-latest
+    name: Create Project
+
+    steps:
+      - name: Checkout current
+        uses: actions/checkout@v7
+
+      - name: Pull from upstream
+        # From https://docs.github.com/en/pull-requests/how-tos/work-with-forks/syncing-a-fork
+        run: |
+          git fetch upstream
+          git checkout main
+          git merge upstream/main
+
+      - name: Update Xcode Project
+        run: xcrun safari-web-extension-packager . --project-location Xcode --bundle-identifier com.$GITHUB_REPOSITORY_OWNER.indie-wiki-buddy --force --no-open --no-prompt
+
+      - name: Set Xcode Project Version
+        working-directory: "Xcode/Indie Wiki Buddy"
+        run: |
+          version=$(sed -En "s/^.*\"version\":.*\"(.*)\".*\$/\1/p" ../../manifest.json)
+          for file in ./**/Info.plist; do
+            realfile="$(realpath "$file")"
+            defaults write "$(realpath "$file")" CFBundleVersion $version
+            defaults write "$(realpath "$file")" CFBundleShortVersionString $version
+            plutil -convert xml1 "$(realpath "$file")"
+          done
+          agvtool new-version -all $version
+          agvtool new-marketing-version $version
+
+      - name: Push update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update to upstream commit $(git rev-parse upstream)"
+          git push
