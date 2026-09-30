@@ -15,12 +15,11 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Pull from upstream
-        # From https://docs.github.com/en/pull-requests/how-tos/work-with-forks/syncing-a-fork
         run: |
           git remote add upstream https://github.com/IndieWikiBuddy/indie-wiki-buddy
           git fetch upstream
           git checkout main
-          git merge upstream/main
+          git merge upstream/main --allow-unrelated-histories
 
       - name: Update Xcode Project
         run: xcrun safari-web-extension-packager . --project-location Xcode --bundle-identifier com.$GITHUB_REPOSITORY_OWNER.indie-wiki-buddy --force --no-open --no-prompt
