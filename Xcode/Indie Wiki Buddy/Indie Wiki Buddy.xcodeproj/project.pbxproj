@@ -7,94 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43B28870306DC75200B6CCA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2886F306DC75200B6CCA7 /* AppDelegate.swift */; };
-		43B28872306DC75200B6CCA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B28871306DC75200B6CCA7 /* SceneDelegate.swift */; };
-		43B28875306DC75200B6CCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B28873306DC75200B6CCA7 /* LaunchScreen.storyboard */; };
-		43B28878306DC75200B6CCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B28876306DC75200B6CCA7 /* Main.storyboard */; };
-		43B28881306DC75200B6CCA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B28880306DC75200B6CCA7 /* AppDelegate.swift */; };
-		43B28884306DC75200B6CCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B28882306DC75200B6CCA7 /* Main.storyboard */; };
-		43B2888B306DC75200B6CCA7 /* Indie Wiki Buddy Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 43B2888A306DC75200B6CCA7 /* Indie Wiki Buddy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		43B28895306DC75300B6CCA7 /* Indie Wiki Buddy Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 43B28894306DC75300B6CCA7 /* Indie Wiki Buddy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		43B2889A306DC75300B6CCA7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 43B2885F306DC74F00B6CCA7 /* Main.html */; };
-		43B2889B306DC75300B6CCA7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 43B2885F306DC74F00B6CCA7 /* Main.html */; };
-		43B2889C306DC75300B6CCA7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B28861306DC74F00B6CCA7 /* Icon.png */; };
-		43B2889D306DC75300B6CCA7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B28861306DC74F00B6CCA7 /* Icon.png */; };
-		43B2889E306DC75300B6CCA7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 43B28862306DC74F00B6CCA7 /* Style.css */; };
-		43B2889F306DC75300B6CCA7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 43B28862306DC74F00B6CCA7 /* Style.css */; };
-		43B288A0306DC75300B6CCA7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 43B28863306DC74F00B6CCA7 /* Script.js */; };
-		43B288A1306DC75300B6CCA7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 43B28863306DC74F00B6CCA7 /* Script.js */; };
-		43B288A2306DC75300B6CCA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B28864306DC74F00B6CCA7 /* ViewController.swift */; };
-		43B288A3306DC75300B6CCA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B28864306DC74F00B6CCA7 /* ViewController.swift */; };
-		43B288A4306DC75300B6CCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B28865306DC75200B6CCA7 /* Assets.xcassets */; };
-		43B288A5306DC75300B6CCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B28865306DC75200B6CCA7 /* Assets.xcassets */; };
-		43B288A6306DC75300B6CCA7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B28867306DC75200B6CCA7 /* SafariWebExtensionHandler.swift */; };
-		43B288A7306DC75300B6CCA7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B28867306DC75200B6CCA7 /* SafariWebExtensionHandler.swift */; };
-		43B288C7306DC75700B6CCA7 /* Xcode in Resources */ = {isa = PBXBuildFile; fileRef = 43B288B9306DC75700B6CCA7 /* Xcode */; };
-		43B288C8306DC75700B6CCA7 /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BA306DC75700B6CCA7 /* manifest-firefox.json */; };
-		43B288C9306DC75700B6CCA7 /* favicons in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BB306DC75700B6CCA7 /* favicons */; };
-		43B288CA306DC75700B6CCA7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BC306DC75700B6CCA7 /* LICENSE */; };
-		43B288CB306DC75700B6CCA7 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BD306DC75700B6CCA7 /* background.js */; };
-		43B288CC306DC75700B6CCA7 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BE306DC75700B6CCA7 /* css */; };
-		43B288CD306DC75700B6CCA7 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BF306DC75700B6CCA7 /* images */; };
-		43B288CE306DC75700B6CCA7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C0306DC75700B6CCA7 /* README.md */; };
-		43B288CF306DC75700B6CCA7 /* manifest-chromium.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C1306DC75700B6CCA7 /* manifest-chromium.json */; };
-		43B288D0306DC75700B6CCA7 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C2306DC75700B6CCA7 /* scripts */; };
-		43B288D1306DC75700B6CCA7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C3306DC75700B6CCA7 /* manifest.json */; };
-		43B288D2306DC75700B6CCA7 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C4306DC75700B6CCA7 /* _locales */; };
-		43B288D3306DC75700B6CCA7 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C5306DC75700B6CCA7 /* data */; };
-		43B288D4306DC75700B6CCA7 /* pages in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C6306DC75700B6CCA7 /* pages */; };
-		43B288D5306DC75700B6CCA7 /* Xcode in Resources */ = {isa = PBXBuildFile; fileRef = 43B288B9306DC75700B6CCA7 /* Xcode */; };
-		43B288D6306DC75700B6CCA7 /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BA306DC75700B6CCA7 /* manifest-firefox.json */; };
-		43B288D7306DC75700B6CCA7 /* favicons in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BB306DC75700B6CCA7 /* favicons */; };
-		43B288D8306DC75700B6CCA7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BC306DC75700B6CCA7 /* LICENSE */; };
-		43B288D9306DC75700B6CCA7 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BD306DC75700B6CCA7 /* background.js */; };
-		43B288DA306DC75700B6CCA7 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BE306DC75700B6CCA7 /* css */; };
-		43B288DB306DC75700B6CCA7 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 43B288BF306DC75700B6CCA7 /* images */; };
-		43B288DC306DC75700B6CCA7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C0306DC75700B6CCA7 /* README.md */; };
-		43B288DD306DC75700B6CCA7 /* manifest-chromium.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C1306DC75700B6CCA7 /* manifest-chromium.json */; };
-		43B288DE306DC75700B6CCA7 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C2306DC75700B6CCA7 /* scripts */; };
-		43B288DF306DC75700B6CCA7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C3306DC75700B6CCA7 /* manifest.json */; };
-		43B288E0306DC75700B6CCA7 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C4306DC75700B6CCA7 /* _locales */; };
-		43B288E1306DC75700B6CCA7 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C5306DC75700B6CCA7 /* data */; };
-		43B288E2306DC75700B6CCA7 /* pages in Resources */ = {isa = PBXBuildFile; fileRef = 43B288C6306DC75700B6CCA7 /* pages */; };
+		43B81BCE307EBFFD0009E2EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B81BCD307EBFFD0009E2EF /* AppDelegate.swift */; };
+		43B81BD0307EBFFD0009E2EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B81BCF307EBFFD0009E2EF /* SceneDelegate.swift */; };
+		43B81BD3307EBFFD0009E2EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BD1307EBFFD0009E2EF /* LaunchScreen.storyboard */; };
+		43B81BD6307EBFFD0009E2EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BD4307EBFFD0009E2EF /* Main.storyboard */; };
+		43B81BDF307EBFFD0009E2EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B81BDE307EBFFD0009E2EF /* AppDelegate.swift */; };
+		43B81BE2307EBFFD0009E2EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BE0307EBFFD0009E2EF /* Main.storyboard */; };
+		43B81BE9307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 43B81BE8307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		43B81BF3307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 43B81BF2307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		43B81BF8307EBFFD0009E2EF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BBD307EBFFA0009E2EF /* Main.html */; };
+		43B81BF9307EBFFD0009E2EF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BBD307EBFFA0009E2EF /* Main.html */; };
+		43B81BFA307EBFFD0009E2EF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BBF307EBFFA0009E2EF /* Icon.png */; };
+		43B81BFB307EBFFD0009E2EF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BBF307EBFFA0009E2EF /* Icon.png */; };
+		43B81BFC307EBFFD0009E2EF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BC0307EBFFA0009E2EF /* Style.css */; };
+		43B81BFD307EBFFD0009E2EF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BC0307EBFFA0009E2EF /* Style.css */; };
+		43B81BFE307EBFFD0009E2EF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BC1307EBFFA0009E2EF /* Script.js */; };
+		43B81BFF307EBFFD0009E2EF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BC1307EBFFA0009E2EF /* Script.js */; };
+		43B81C00307EBFFD0009E2EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B81BC2307EBFFA0009E2EF /* ViewController.swift */; };
+		43B81C01307EBFFD0009E2EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B81BC2307EBFFA0009E2EF /* ViewController.swift */; };
+		43B81C02307EBFFD0009E2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BC3307EBFFD0009E2EF /* Assets.xcassets */; };
+		43B81C03307EBFFD0009E2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B81BC3307EBFFD0009E2EF /* Assets.xcassets */; };
+		43B81C04307EBFFD0009E2EF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B81BC5307EBFFD0009E2EF /* SafariWebExtensionHandler.swift */; };
+		43B81C05307EBFFD0009E2EF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B81BC5307EBFFD0009E2EF /* SafariWebExtensionHandler.swift */; };
+		43B81C25307EC0010009E2EF /* Xcode in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C17307EC0010009E2EF /* Xcode */; };
+		43B81C26307EC0010009E2EF /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C18307EC0010009E2EF /* manifest-firefox.json */; };
+		43B81C27307EC0010009E2EF /* favicons in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C19307EC0010009E2EF /* favicons */; };
+		43B81C28307EC0010009E2EF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1A307EC0010009E2EF /* LICENSE */; };
+		43B81C29307EC0010009E2EF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1B307EC0010009E2EF /* background.js */; };
+		43B81C2A307EC0010009E2EF /* css in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1C307EC0010009E2EF /* css */; };
+		43B81C2B307EC0010009E2EF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1D307EC0010009E2EF /* images */; };
+		43B81C2C307EC0010009E2EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1E307EC0010009E2EF /* README.md */; };
+		43B81C2D307EC0010009E2EF /* manifest-chromium.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1F307EC0010009E2EF /* manifest-chromium.json */; };
+		43B81C2E307EC0010009E2EF /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C20307EC0010009E2EF /* scripts */; };
+		43B81C2F307EC0010009E2EF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C21307EC0010009E2EF /* manifest.json */; };
+		43B81C30307EC0010009E2EF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C22307EC0010009E2EF /* _locales */; };
+		43B81C31307EC0010009E2EF /* data in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C23307EC0010009E2EF /* data */; };
+		43B81C32307EC0010009E2EF /* pages in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C24307EC0010009E2EF /* pages */; };
+		43B81C33307EC0010009E2EF /* Xcode in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C17307EC0010009E2EF /* Xcode */; };
+		43B81C34307EC0010009E2EF /* manifest-firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C18307EC0010009E2EF /* manifest-firefox.json */; };
+		43B81C35307EC0010009E2EF /* favicons in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C19307EC0010009E2EF /* favicons */; };
+		43B81C36307EC0010009E2EF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1A307EC0010009E2EF /* LICENSE */; };
+		43B81C37307EC0010009E2EF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1B307EC0010009E2EF /* background.js */; };
+		43B81C38307EC0010009E2EF /* css in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1C307EC0010009E2EF /* css */; };
+		43B81C39307EC0010009E2EF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1D307EC0010009E2EF /* images */; };
+		43B81C3A307EC0010009E2EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1E307EC0010009E2EF /* README.md */; };
+		43B81C3B307EC0010009E2EF /* manifest-chromium.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C1F307EC0010009E2EF /* manifest-chromium.json */; };
+		43B81C3C307EC0010009E2EF /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C20307EC0010009E2EF /* scripts */; };
+		43B81C3D307EC0010009E2EF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C21307EC0010009E2EF /* manifest.json */; };
+		43B81C3E307EC0010009E2EF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C22307EC0010009E2EF /* _locales */; };
+		43B81C3F307EC0010009E2EF /* data in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C23307EC0010009E2EF /* data */; };
+		43B81C40307EC0010009E2EF /* pages in Resources */ = {isa = PBXBuildFile; fileRef = 43B81C24307EC0010009E2EF /* pages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		43B2888C306DC75200B6CCA7 /* PBXContainerItemProxy */ = {
+		43B81BEA307EBFFD0009E2EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 43B28859306DC74F00B6CCA7 /* Project object */;
+			containerPortal = 43B81BB7307EBFFA0009E2EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43B28889306DC75200B6CCA7;
+			remoteGlobalIDString = 43B81BE7307EBFFD0009E2EF;
 			remoteInfo = "Indie Wiki Buddy Extension (iOS)";
 		};
-		43B28896306DC75300B6CCA7 /* PBXContainerItemProxy */ = {
+		43B81BF4307EBFFD0009E2EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 43B28859306DC74F00B6CCA7 /* Project object */;
+			containerPortal = 43B81BB7307EBFFA0009E2EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43B28893306DC75300B6CCA7;
+			remoteGlobalIDString = 43B81BF1307EBFFD0009E2EF;
 			remoteInfo = "Indie Wiki Buddy Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		43B288AD306DC75300B6CCA7 /* Embed Foundation Extensions */ = {
+		43B81C0B307EBFFD0009E2EF /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				43B2888B306DC75200B6CCA7 /* Indie Wiki Buddy Extension.appex in Embed Foundation Extensions */,
+				43B81BE9307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B288B4306DC75300B6CCA7 /* Embed Foundation Extensions */ = {
+		43B81C12307EBFFD0009E2EF /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				43B28895306DC75300B6CCA7 /* Indie Wiki Buddy Extension.appex in Embed Foundation Extensions */,
+				43B81BF3307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,66 +102,66 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		43B28860306DC74F00B6CCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
-		43B28861306DC74F00B6CCA7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		43B28862306DC74F00B6CCA7 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		43B28863306DC74F00B6CCA7 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		43B28864306DC74F00B6CCA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		43B28865306DC75200B6CCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43B28867306DC75200B6CCA7 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		43B2886C306DC75200B6CCA7 /* Indie Wiki Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indie Wiki Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43B2886F306DC75200B6CCA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43B28871306DC75200B6CCA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		43B28874306DC75200B6CCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		43B28877306DC75200B6CCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		43B28879306DC75200B6CCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43B2887E306DC75200B6CCA7 /* Indie Wiki Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indie Wiki Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43B28880306DC75200B6CCA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43B28883306DC75200B6CCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		43B28885306DC75200B6CCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43B2888A306DC75200B6CCA7 /* Indie Wiki Buddy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Indie Wiki Buddy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43B2888F306DC75200B6CCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43B28894306DC75300B6CCA7 /* Indie Wiki Buddy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Indie Wiki Buddy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43B28899306DC75300B6CCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43B288B9306DC75700B6CCA7 /* Xcode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Xcode; path = ../..; sourceTree = "<group>"; };
-		43B288BA306DC75700B6CCA7 /* manifest-firefox.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-firefox.json"; path = "../../../manifest-firefox.json"; sourceTree = "<group>"; };
-		43B288BB306DC75700B6CCA7 /* favicons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = favicons; path = ../../../favicons; sourceTree = "<group>"; };
-		43B288BC306DC75700B6CCA7 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
-		43B288BD306DC75700B6CCA7 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../background.js; sourceTree = "<group>"; };
-		43B288BE306DC75700B6CCA7 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../../css; sourceTree = "<group>"; };
-		43B288BF306DC75700B6CCA7 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../images; sourceTree = "<group>"; };
-		43B288C0306DC75700B6CCA7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
-		43B288C1306DC75700B6CCA7 /* manifest-chromium.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-chromium.json"; path = "../../../manifest-chromium.json"; sourceTree = "<group>"; };
-		43B288C2306DC75700B6CCA7 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = ../../../scripts; sourceTree = "<group>"; };
-		43B288C3306DC75700B6CCA7 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../manifest.json; sourceTree = "<group>"; };
-		43B288C4306DC75700B6CCA7 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../../_locales; sourceTree = "<group>"; };
-		43B288C5306DC75700B6CCA7 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../../../data; sourceTree = "<group>"; };
-		43B288C6306DC75700B6CCA7 /* pages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pages; path = ../../../pages; sourceTree = "<group>"; };
+		43B81BBE307EBFFA0009E2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		43B81BBF307EBFFA0009E2EF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		43B81BC0307EBFFA0009E2EF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		43B81BC1307EBFFA0009E2EF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		43B81BC2307EBFFA0009E2EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43B81BC3307EBFFD0009E2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43B81BC5307EBFFD0009E2EF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		43B81BCA307EBFFD0009E2EF /* Indie Wiki Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indie Wiki Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B81BCD307EBFFD0009E2EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43B81BCF307EBFFD0009E2EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43B81BD2307EBFFD0009E2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43B81BD5307EBFFD0009E2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43B81BD7307EBFFD0009E2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B81BDC307EBFFD0009E2EF /* Indie Wiki Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indie Wiki Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B81BDE307EBFFD0009E2EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43B81BE1307EBFFD0009E2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43B81BE3307EBFFD0009E2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B81BE8307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Indie Wiki Buddy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B81BED307EBFFD0009E2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B81BF2307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Indie Wiki Buddy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B81BF7307EBFFD0009E2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B81C17307EC0010009E2EF /* Xcode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Xcode; path = ../..; sourceTree = "<group>"; };
+		43B81C18307EC0010009E2EF /* manifest-firefox.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-firefox.json"; path = "../../../manifest-firefox.json"; sourceTree = "<group>"; };
+		43B81C19307EC0010009E2EF /* favicons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = favicons; path = ../../../favicons; sourceTree = "<group>"; };
+		43B81C1A307EC0010009E2EF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
+		43B81C1B307EC0010009E2EF /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../background.js; sourceTree = "<group>"; };
+		43B81C1C307EC0010009E2EF /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../../css; sourceTree = "<group>"; };
+		43B81C1D307EC0010009E2EF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../images; sourceTree = "<group>"; };
+		43B81C1E307EC0010009E2EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		43B81C1F307EC0010009E2EF /* manifest-chromium.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-chromium.json"; path = "../../../manifest-chromium.json"; sourceTree = "<group>"; };
+		43B81C20307EC0010009E2EF /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = ../../../scripts; sourceTree = "<group>"; };
+		43B81C21307EC0010009E2EF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../manifest.json; sourceTree = "<group>"; };
+		43B81C22307EC0010009E2EF /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../../_locales; sourceTree = "<group>"; };
+		43B81C23307EC0010009E2EF /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../../../data; sourceTree = "<group>"; };
+		43B81C24307EC0010009E2EF /* pages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pages; path = ../../../pages; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43B28869306DC75200B6CCA7 /* Frameworks */ = {
+		43B81BC7307EBFFD0009E2EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B2887B306DC75200B6CCA7 /* Frameworks */ = {
+		43B81BD9307EBFFD0009E2EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B28887306DC75200B6CCA7 /* Frameworks */ = {
+		43B81BE5307EBFFD0009E2EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B28891306DC75300B6CCA7 /* Frameworks */ = {
+		43B81BEF307EBFFD0009E2EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -171,115 +171,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43B28858306DC74F00B6CCA7 = {
+		43B81BB6307EBFFA0009E2EF = {
 			isa = PBXGroup;
 			children = (
-				43B2885D306DC74F00B6CCA7 /* Shared (App) */,
-				43B28866306DC75200B6CCA7 /* Shared (Extension) */,
-				43B2886E306DC75200B6CCA7 /* iOS (App) */,
-				43B2887F306DC75200B6CCA7 /* macOS (App) */,
-				43B2888E306DC75200B6CCA7 /* iOS (Extension) */,
-				43B28898306DC75300B6CCA7 /* macOS (Extension) */,
-				43B2886D306DC75200B6CCA7 /* Products */,
+				43B81BBB307EBFFA0009E2EF /* Shared (App) */,
+				43B81BC4307EBFFD0009E2EF /* Shared (Extension) */,
+				43B81BCC307EBFFD0009E2EF /* iOS (App) */,
+				43B81BDD307EBFFD0009E2EF /* macOS (App) */,
+				43B81BEC307EBFFD0009E2EF /* iOS (Extension) */,
+				43B81BF6307EBFFD0009E2EF /* macOS (Extension) */,
+				43B81BCB307EBFFD0009E2EF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		43B2885D306DC74F00B6CCA7 /* Shared (App) */ = {
+		43B81BBB307EBFFA0009E2EF /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				43B28864306DC74F00B6CCA7 /* ViewController.swift */,
-				43B28865306DC75200B6CCA7 /* Assets.xcassets */,
-				43B2885E306DC74F00B6CCA7 /* Resources */,
+				43B81BC2307EBFFA0009E2EF /* ViewController.swift */,
+				43B81BC3307EBFFD0009E2EF /* Assets.xcassets */,
+				43B81BBC307EBFFA0009E2EF /* Resources */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		43B2885E306DC74F00B6CCA7 /* Resources */ = {
+		43B81BBC307EBFFA0009E2EF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				43B2885F306DC74F00B6CCA7 /* Main.html */,
-				43B28861306DC74F00B6CCA7 /* Icon.png */,
-				43B28862306DC74F00B6CCA7 /* Style.css */,
-				43B28863306DC74F00B6CCA7 /* Script.js */,
+				43B81BBD307EBFFA0009E2EF /* Main.html */,
+				43B81BBF307EBFFA0009E2EF /* Icon.png */,
+				43B81BC0307EBFFA0009E2EF /* Style.css */,
+				43B81BC1307EBFFA0009E2EF /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		43B28866306DC75200B6CCA7 /* Shared (Extension) */ = {
+		43B81BC4307EBFFD0009E2EF /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				43B288B8306DC75700B6CCA7 /* Resources */,
-				43B28867306DC75200B6CCA7 /* SafariWebExtensionHandler.swift */,
+				43B81C16307EC0010009E2EF /* Resources */,
+				43B81BC5307EBFFD0009E2EF /* SafariWebExtensionHandler.swift */,
 			);
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		43B2886D306DC75200B6CCA7 /* Products */ = {
+		43B81BCB307EBFFD0009E2EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43B2886C306DC75200B6CCA7 /* Indie Wiki Buddy.app */,
-				43B2887E306DC75200B6CCA7 /* Indie Wiki Buddy.app */,
-				43B2888A306DC75200B6CCA7 /* Indie Wiki Buddy Extension.appex */,
-				43B28894306DC75300B6CCA7 /* Indie Wiki Buddy Extension.appex */,
+				43B81BCA307EBFFD0009E2EF /* Indie Wiki Buddy.app */,
+				43B81BDC307EBFFD0009E2EF /* Indie Wiki Buddy.app */,
+				43B81BE8307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex */,
+				43B81BF2307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43B2886E306DC75200B6CCA7 /* iOS (App) */ = {
+		43B81BCC307EBFFD0009E2EF /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				43B2886F306DC75200B6CCA7 /* AppDelegate.swift */,
-				43B28871306DC75200B6CCA7 /* SceneDelegate.swift */,
-				43B28873306DC75200B6CCA7 /* LaunchScreen.storyboard */,
-				43B28876306DC75200B6CCA7 /* Main.storyboard */,
-				43B28879306DC75200B6CCA7 /* Info.plist */,
+				43B81BCD307EBFFD0009E2EF /* AppDelegate.swift */,
+				43B81BCF307EBFFD0009E2EF /* SceneDelegate.swift */,
+				43B81BD1307EBFFD0009E2EF /* LaunchScreen.storyboard */,
+				43B81BD4307EBFFD0009E2EF /* Main.storyboard */,
+				43B81BD7307EBFFD0009E2EF /* Info.plist */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
-		43B2887F306DC75200B6CCA7 /* macOS (App) */ = {
+		43B81BDD307EBFFD0009E2EF /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				43B28880306DC75200B6CCA7 /* AppDelegate.swift */,
-				43B28882306DC75200B6CCA7 /* Main.storyboard */,
-				43B28885306DC75200B6CCA7 /* Info.plist */,
+				43B81BDE307EBFFD0009E2EF /* AppDelegate.swift */,
+				43B81BE0307EBFFD0009E2EF /* Main.storyboard */,
+				43B81BE3307EBFFD0009E2EF /* Info.plist */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
 		};
-		43B2888E306DC75200B6CCA7 /* iOS (Extension) */ = {
+		43B81BEC307EBFFD0009E2EF /* iOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				43B2888F306DC75200B6CCA7 /* Info.plist */,
+				43B81BED307EBFFD0009E2EF /* Info.plist */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
-		43B28898306DC75300B6CCA7 /* macOS (Extension) */ = {
+		43B81BF6307EBFFD0009E2EF /* macOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				43B28899306DC75300B6CCA7 /* Info.plist */,
+				43B81BF7307EBFFD0009E2EF /* Info.plist */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
-		43B288B8306DC75700B6CCA7 /* Resources */ = {
+		43B81C16307EC0010009E2EF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				43B288B9306DC75700B6CCA7 /* Xcode */,
-				43B288BA306DC75700B6CCA7 /* manifest-firefox.json */,
-				43B288BB306DC75700B6CCA7 /* favicons */,
-				43B288BC306DC75700B6CCA7 /* LICENSE */,
-				43B288BD306DC75700B6CCA7 /* background.js */,
-				43B288BE306DC75700B6CCA7 /* css */,
-				43B288BF306DC75700B6CCA7 /* images */,
-				43B288C0306DC75700B6CCA7 /* README.md */,
-				43B288C1306DC75700B6CCA7 /* manifest-chromium.json */,
-				43B288C2306DC75700B6CCA7 /* scripts */,
-				43B288C3306DC75700B6CCA7 /* manifest.json */,
-				43B288C4306DC75700B6CCA7 /* _locales */,
-				43B288C5306DC75700B6CCA7 /* data */,
-				43B288C6306DC75700B6CCA7 /* pages */,
+				43B81C17307EC0010009E2EF /* Xcode */,
+				43B81C18307EC0010009E2EF /* manifest-firefox.json */,
+				43B81C19307EC0010009E2EF /* favicons */,
+				43B81C1A307EC0010009E2EF /* LICENSE */,
+				43B81C1B307EC0010009E2EF /* background.js */,
+				43B81C1C307EC0010009E2EF /* css */,
+				43B81C1D307EC0010009E2EF /* images */,
+				43B81C1E307EC0010009E2EF /* README.md */,
+				43B81C1F307EC0010009E2EF /* manifest-chromium.json */,
+				43B81C20307EC0010009E2EF /* scripts */,
+				43B81C21307EC0010009E2EF /* manifest.json */,
+				43B81C22307EC0010009E2EF /* _locales */,
+				43B81C23307EC0010009E2EF /* data */,
+				43B81C24307EC0010009E2EF /* pages */,
 			);
 			name = Resources;
 			path = "Shared (Extension)";
@@ -288,55 +288,55 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43B2886B306DC75200B6CCA7 /* Indie Wiki Buddy (iOS) */ = {
+		43B81BC9307EBFFD0009E2EF /* Indie Wiki Buddy (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43B288AE306DC75300B6CCA7 /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy (iOS)" */;
+			buildConfigurationList = 43B81C0C307EBFFD0009E2EF /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy (iOS)" */;
 			buildPhases = (
-				43B28868306DC75200B6CCA7 /* Sources */,
-				43B28869306DC75200B6CCA7 /* Frameworks */,
-				43B2886A306DC75200B6CCA7 /* Resources */,
-				43B288AD306DC75300B6CCA7 /* Embed Foundation Extensions */,
+				43B81BC6307EBFFD0009E2EF /* Sources */,
+				43B81BC7307EBFFD0009E2EF /* Frameworks */,
+				43B81BC8307EBFFD0009E2EF /* Resources */,
+				43B81C0B307EBFFD0009E2EF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43B2888D306DC75200B6CCA7 /* PBXTargetDependency */,
+				43B81BEB307EBFFD0009E2EF /* PBXTargetDependency */,
 			);
 			name = "Indie Wiki Buddy (iOS)";
 			packageProductDependencies = (
 			);
 			productName = "Indie Wiki Buddy (iOS)";
-			productReference = 43B2886C306DC75200B6CCA7 /* Indie Wiki Buddy.app */;
+			productReference = 43B81BCA307EBFFD0009E2EF /* Indie Wiki Buddy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		43B2887D306DC75200B6CCA7 /* Indie Wiki Buddy (macOS) */ = {
+		43B81BDB307EBFFD0009E2EF /* Indie Wiki Buddy (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43B288B5306DC75300B6CCA7 /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy (macOS)" */;
+			buildConfigurationList = 43B81C13307EBFFD0009E2EF /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy (macOS)" */;
 			buildPhases = (
-				43B2887A306DC75200B6CCA7 /* Sources */,
-				43B2887B306DC75200B6CCA7 /* Frameworks */,
-				43B2887C306DC75200B6CCA7 /* Resources */,
-				43B288B4306DC75300B6CCA7 /* Embed Foundation Extensions */,
+				43B81BD8307EBFFD0009E2EF /* Sources */,
+				43B81BD9307EBFFD0009E2EF /* Frameworks */,
+				43B81BDA307EBFFD0009E2EF /* Resources */,
+				43B81C12307EBFFD0009E2EF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43B28897306DC75300B6CCA7 /* PBXTargetDependency */,
+				43B81BF5307EBFFD0009E2EF /* PBXTargetDependency */,
 			);
 			name = "Indie Wiki Buddy (macOS)";
 			packageProductDependencies = (
 			);
 			productName = "Indie Wiki Buddy (macOS)";
-			productReference = 43B2887E306DC75200B6CCA7 /* Indie Wiki Buddy.app */;
+			productReference = 43B81BDC307EBFFD0009E2EF /* Indie Wiki Buddy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		43B28889306DC75200B6CCA7 /* Indie Wiki Buddy Extension (iOS) */ = {
+		43B81BE7307EBFFD0009E2EF /* Indie Wiki Buddy Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43B288AA306DC75300B6CCA7 /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy Extension (iOS)" */;
+			buildConfigurationList = 43B81C08307EBFFD0009E2EF /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy Extension (iOS)" */;
 			buildPhases = (
-				43B28886306DC75200B6CCA7 /* Sources */,
-				43B28887306DC75200B6CCA7 /* Frameworks */,
-				43B28888306DC75200B6CCA7 /* Resources */,
+				43B81BE4307EBFFD0009E2EF /* Sources */,
+				43B81BE5307EBFFD0009E2EF /* Frameworks */,
+				43B81BE6307EBFFD0009E2EF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,16 +346,16 @@
 			packageProductDependencies = (
 			);
 			productName = "Indie Wiki Buddy Extension (iOS)";
-			productReference = 43B2888A306DC75200B6CCA7 /* Indie Wiki Buddy Extension.appex */;
+			productReference = 43B81BE8307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		43B28893306DC75300B6CCA7 /* Indie Wiki Buddy Extension (macOS) */ = {
+		43B81BF1307EBFFD0009E2EF /* Indie Wiki Buddy Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43B288B1306DC75300B6CCA7 /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy Extension (macOS)" */;
+			buildConfigurationList = 43B81C0F307EBFFD0009E2EF /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy Extension (macOS)" */;
 			buildPhases = (
-				43B28890306DC75300B6CCA7 /* Sources */,
-				43B28891306DC75300B6CCA7 /* Frameworks */,
-				43B28892306DC75300B6CCA7 /* Resources */,
+				43B81BEE307EBFFD0009E2EF /* Sources */,
+				43B81BEF307EBFFD0009E2EF /* Frameworks */,
+				43B81BF0307EBFFD0009E2EF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -365,207 +365,207 @@
 			packageProductDependencies = (
 			);
 			productName = "Indie Wiki Buddy Extension (macOS)";
-			productReference = 43B28894306DC75300B6CCA7 /* Indie Wiki Buddy Extension.appex */;
+			productReference = 43B81BF2307EBFFD0009E2EF /* Indie Wiki Buddy Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		43B28859306DC74F00B6CCA7 /* Project object */ = {
+		43B81BB7307EBFFA0009E2EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
-					43B2886B306DC75200B6CCA7 = {
+					43B81BC9307EBFFD0009E2EF = {
 						CreatedOnToolsVersion = 26.6;
 					};
-					43B2887D306DC75200B6CCA7 = {
+					43B81BDB307EBFFD0009E2EF = {
 						CreatedOnToolsVersion = 26.6;
 					};
-					43B28889306DC75200B6CCA7 = {
+					43B81BE7307EBFFD0009E2EF = {
 						CreatedOnToolsVersion = 26.6;
 					};
-					43B28893306DC75300B6CCA7 = {
+					43B81BF1307EBFFD0009E2EF = {
 						CreatedOnToolsVersion = 26.6;
 					};
 				};
 			};
-			buildConfigurationList = 43B2885C306DC74F00B6CCA7 /* Build configuration list for PBXProject "Indie Wiki Buddy" */;
+			buildConfigurationList = 43B81BBA307EBFFA0009E2EF /* Build configuration list for PBXProject "Indie Wiki Buddy" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 43B28858306DC74F00B6CCA7;
+			mainGroup = 43B81BB6307EBFFA0009E2EF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 43B2886D306DC75200B6CCA7 /* Products */;
+			productRefGroup = 43B81BCB307EBFFD0009E2EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43B2886B306DC75200B6CCA7 /* Indie Wiki Buddy (iOS) */,
-				43B2887D306DC75200B6CCA7 /* Indie Wiki Buddy (macOS) */,
-				43B28889306DC75200B6CCA7 /* Indie Wiki Buddy Extension (iOS) */,
-				43B28893306DC75300B6CCA7 /* Indie Wiki Buddy Extension (macOS) */,
+				43B81BC9307EBFFD0009E2EF /* Indie Wiki Buddy (iOS) */,
+				43B81BDB307EBFFD0009E2EF /* Indie Wiki Buddy (macOS) */,
+				43B81BE7307EBFFD0009E2EF /* Indie Wiki Buddy Extension (iOS) */,
+				43B81BF1307EBFFD0009E2EF /* Indie Wiki Buddy Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43B2886A306DC75200B6CCA7 /* Resources */ = {
+		43B81BC8307EBFFD0009E2EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B2889C306DC75300B6CCA7 /* Icon.png in Resources */,
-				43B28875306DC75200B6CCA7 /* LaunchScreen.storyboard in Resources */,
-				43B2889A306DC75300B6CCA7 /* Main.html in Resources */,
-				43B288A0306DC75300B6CCA7 /* Script.js in Resources */,
-				43B288A4306DC75300B6CCA7 /* Assets.xcassets in Resources */,
-				43B28878306DC75200B6CCA7 /* Main.storyboard in Resources */,
-				43B2889E306DC75300B6CCA7 /* Style.css in Resources */,
+				43B81BFA307EBFFD0009E2EF /* Icon.png in Resources */,
+				43B81BD3307EBFFD0009E2EF /* LaunchScreen.storyboard in Resources */,
+				43B81BF8307EBFFD0009E2EF /* Main.html in Resources */,
+				43B81BFE307EBFFD0009E2EF /* Script.js in Resources */,
+				43B81C02307EBFFD0009E2EF /* Assets.xcassets in Resources */,
+				43B81BD6307EBFFD0009E2EF /* Main.storyboard in Resources */,
+				43B81BFC307EBFFD0009E2EF /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B2887C306DC75200B6CCA7 /* Resources */ = {
+		43B81BDA307EBFFD0009E2EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B2889D306DC75300B6CCA7 /* Icon.png in Resources */,
-				43B2889F306DC75300B6CCA7 /* Style.css in Resources */,
-				43B28884306DC75200B6CCA7 /* Main.storyboard in Resources */,
-				43B288A1306DC75300B6CCA7 /* Script.js in Resources */,
-				43B288A5306DC75300B6CCA7 /* Assets.xcassets in Resources */,
-				43B2889B306DC75300B6CCA7 /* Main.html in Resources */,
+				43B81BFB307EBFFD0009E2EF /* Icon.png in Resources */,
+				43B81BFD307EBFFD0009E2EF /* Style.css in Resources */,
+				43B81BE2307EBFFD0009E2EF /* Main.storyboard in Resources */,
+				43B81BFF307EBFFD0009E2EF /* Script.js in Resources */,
+				43B81C03307EBFFD0009E2EF /* Assets.xcassets in Resources */,
+				43B81BF9307EBFFD0009E2EF /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B28888306DC75200B6CCA7 /* Resources */ = {
+		43B81BE6307EBFFD0009E2EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B288DA306DC75700B6CCA7 /* css in Resources */,
-				43B288E2306DC75700B6CCA7 /* pages in Resources */,
-				43B288D6306DC75700B6CCA7 /* manifest-firefox.json in Resources */,
-				43B288D5306DC75700B6CCA7 /* Xcode in Resources */,
-				43B288E1306DC75700B6CCA7 /* data in Resources */,
-				43B288DE306DC75700B6CCA7 /* scripts in Resources */,
-				43B288D8306DC75700B6CCA7 /* LICENSE in Resources */,
-				43B288DF306DC75700B6CCA7 /* manifest.json in Resources */,
-				43B288E0306DC75700B6CCA7 /* _locales in Resources */,
-				43B288DD306DC75700B6CCA7 /* manifest-chromium.json in Resources */,
-				43B288D7306DC75700B6CCA7 /* favicons in Resources */,
-				43B288DB306DC75700B6CCA7 /* images in Resources */,
-				43B288DC306DC75700B6CCA7 /* README.md in Resources */,
-				43B288D9306DC75700B6CCA7 /* background.js in Resources */,
+				43B81C38307EC0010009E2EF /* css in Resources */,
+				43B81C40307EC0010009E2EF /* pages in Resources */,
+				43B81C34307EC0010009E2EF /* manifest-firefox.json in Resources */,
+				43B81C33307EC0010009E2EF /* Xcode in Resources */,
+				43B81C3F307EC0010009E2EF /* data in Resources */,
+				43B81C3C307EC0010009E2EF /* scripts in Resources */,
+				43B81C36307EC0010009E2EF /* LICENSE in Resources */,
+				43B81C3D307EC0010009E2EF /* manifest.json in Resources */,
+				43B81C3E307EC0010009E2EF /* _locales in Resources */,
+				43B81C3B307EC0010009E2EF /* manifest-chromium.json in Resources */,
+				43B81C35307EC0010009E2EF /* favicons in Resources */,
+				43B81C39307EC0010009E2EF /* images in Resources */,
+				43B81C3A307EC0010009E2EF /* README.md in Resources */,
+				43B81C37307EC0010009E2EF /* background.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B28892306DC75300B6CCA7 /* Resources */ = {
+		43B81BF0307EBFFD0009E2EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B288CC306DC75700B6CCA7 /* css in Resources */,
-				43B288D4306DC75700B6CCA7 /* pages in Resources */,
-				43B288C8306DC75700B6CCA7 /* manifest-firefox.json in Resources */,
-				43B288C7306DC75700B6CCA7 /* Xcode in Resources */,
-				43B288D3306DC75700B6CCA7 /* data in Resources */,
-				43B288D0306DC75700B6CCA7 /* scripts in Resources */,
-				43B288CA306DC75700B6CCA7 /* LICENSE in Resources */,
-				43B288D1306DC75700B6CCA7 /* manifest.json in Resources */,
-				43B288D2306DC75700B6CCA7 /* _locales in Resources */,
-				43B288CF306DC75700B6CCA7 /* manifest-chromium.json in Resources */,
-				43B288C9306DC75700B6CCA7 /* favicons in Resources */,
-				43B288CD306DC75700B6CCA7 /* images in Resources */,
-				43B288CE306DC75700B6CCA7 /* README.md in Resources */,
-				43B288CB306DC75700B6CCA7 /* background.js in Resources */,
+				43B81C2A307EC0010009E2EF /* css in Resources */,
+				43B81C32307EC0010009E2EF /* pages in Resources */,
+				43B81C26307EC0010009E2EF /* manifest-firefox.json in Resources */,
+				43B81C25307EC0010009E2EF /* Xcode in Resources */,
+				43B81C31307EC0010009E2EF /* data in Resources */,
+				43B81C2E307EC0010009E2EF /* scripts in Resources */,
+				43B81C28307EC0010009E2EF /* LICENSE in Resources */,
+				43B81C2F307EC0010009E2EF /* manifest.json in Resources */,
+				43B81C30307EC0010009E2EF /* _locales in Resources */,
+				43B81C2D307EC0010009E2EF /* manifest-chromium.json in Resources */,
+				43B81C27307EC0010009E2EF /* favicons in Resources */,
+				43B81C2B307EC0010009E2EF /* images in Resources */,
+				43B81C2C307EC0010009E2EF /* README.md in Resources */,
+				43B81C29307EC0010009E2EF /* background.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43B28868306DC75200B6CCA7 /* Sources */ = {
+		43B81BC6307EBFFD0009E2EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B288A2306DC75300B6CCA7 /* ViewController.swift in Sources */,
-				43B28870306DC75200B6CCA7 /* AppDelegate.swift in Sources */,
-				43B28872306DC75200B6CCA7 /* SceneDelegate.swift in Sources */,
+				43B81C00307EBFFD0009E2EF /* ViewController.swift in Sources */,
+				43B81BCE307EBFFD0009E2EF /* AppDelegate.swift in Sources */,
+				43B81BD0307EBFFD0009E2EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B2887A306DC75200B6CCA7 /* Sources */ = {
+		43B81BD8307EBFFD0009E2EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B288A3306DC75300B6CCA7 /* ViewController.swift in Sources */,
-				43B28881306DC75200B6CCA7 /* AppDelegate.swift in Sources */,
+				43B81C01307EBFFD0009E2EF /* ViewController.swift in Sources */,
+				43B81BDF307EBFFD0009E2EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B28886306DC75200B6CCA7 /* Sources */ = {
+		43B81BE4307EBFFD0009E2EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B288A6306DC75300B6CCA7 /* SafariWebExtensionHandler.swift in Sources */,
+				43B81C04307EBFFD0009E2EF /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B28890306DC75300B6CCA7 /* Sources */ = {
+		43B81BEE307EBFFD0009E2EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B288A7306DC75300B6CCA7 /* SafariWebExtensionHandler.swift in Sources */,
+				43B81C05307EBFFD0009E2EF /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43B2888D306DC75200B6CCA7 /* PBXTargetDependency */ = {
+		43B81BEB307EBFFD0009E2EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43B28889306DC75200B6CCA7 /* Indie Wiki Buddy Extension (iOS) */;
-			targetProxy = 43B2888C306DC75200B6CCA7 /* PBXContainerItemProxy */;
+			target = 43B81BE7307EBFFD0009E2EF /* Indie Wiki Buddy Extension (iOS) */;
+			targetProxy = 43B81BEA307EBFFD0009E2EF /* PBXContainerItemProxy */;
 		};
-		43B28897306DC75300B6CCA7 /* PBXTargetDependency */ = {
+		43B81BF5307EBFFD0009E2EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43B28893306DC75300B6CCA7 /* Indie Wiki Buddy Extension (macOS) */;
-			targetProxy = 43B28896306DC75300B6CCA7 /* PBXContainerItemProxy */;
+			target = 43B81BF1307EBFFD0009E2EF /* Indie Wiki Buddy Extension (macOS) */;
+			targetProxy = 43B81BF4307EBFFD0009E2EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		43B2885F306DC74F00B6CCA7 /* Main.html */ = {
+		43B81BBD307EBFFA0009E2EF /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43B28860306DC74F00B6CCA7 /* Base */,
+				43B81BBE307EBFFA0009E2EF /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		43B28873306DC75200B6CCA7 /* LaunchScreen.storyboard */ = {
+		43B81BD1307EBFFD0009E2EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43B28874306DC75200B6CCA7 /* Base */,
+				43B81BD2307EBFFD0009E2EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		43B28876306DC75200B6CCA7 /* Main.storyboard */ = {
+		43B81BD4307EBFFD0009E2EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43B28877306DC75200B6CCA7 /* Base */,
+				43B81BD5307EBFFD0009E2EF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		43B28882306DC75200B6CCA7 /* Main.storyboard */ = {
+		43B81BE0307EBFFD0009E2EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43B28883306DC75200B6CCA7 /* Base */,
+				43B81BE1307EBFFD0009E2EF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -573,7 +573,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		43B288A8306DC75300B6CCA7 /* Debug */ = {
+		43B81C06307EBFFD0009E2EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -634,7 +634,7 @@
 			};
 			name = Debug;
 		};
-		43B288A9306DC75300B6CCA7 /* Release */ = {
+		43B81C07307EBFFD0009E2EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -687,7 +687,7 @@
 			};
 			name = Release;
 		};
-		43B288AB306DC75300B6CCA7 /* Debug */ = {
+		43B81C09307EBFFD0009E2EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -720,7 +720,7 @@
 			};
 			name = Debug;
 		};
-		43B288AC306DC75300B6CCA7 /* Release */ = {
+		43B81C0A307EBFFD0009E2EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -754,7 +754,7 @@
 			};
 			name = Release;
 		};
-		43B288AF306DC75300B6CCA7 /* Debug */ = {
+		43B81C0D307EBFFD0009E2EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -794,7 +794,7 @@
 			};
 			name = Debug;
 		};
-		43B288B0306DC75300B6CCA7 /* Release */ = {
+		43B81C0E307EBFFD0009E2EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -835,7 +835,7 @@
 			};
 			name = Release;
 		};
-		43B288B2306DC75300B6CCA7 /* Debug */ = {
+		43B81C10307EBFFD0009E2EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -870,7 +870,7 @@
 			};
 			name = Debug;
 		};
-		43B288B3306DC75300B6CCA7 /* Release */ = {
+		43B81C11307EBFFD0009E2EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -905,7 +905,7 @@
 			};
 			name = Release;
 		};
-		43B288B6306DC75300B6CCA7 /* Debug */ = {
+		43B81C14307EBFFD0009E2EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -946,7 +946,7 @@
 			};
 			name = Debug;
 		};
-		43B288B7306DC75300B6CCA7 /* Release */ = {
+		43B81C15307EBFFD0009E2EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -990,52 +990,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43B2885C306DC74F00B6CCA7 /* Build configuration list for PBXProject "Indie Wiki Buddy" */ = {
+		43B81BBA307EBFFA0009E2EF /* Build configuration list for PBXProject "Indie Wiki Buddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B288A8306DC75300B6CCA7 /* Debug */,
-				43B288A9306DC75300B6CCA7 /* Release */,
+				43B81C06307EBFFD0009E2EF /* Debug */,
+				43B81C07307EBFFD0009E2EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43B288AA306DC75300B6CCA7 /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy Extension (iOS)" */ = {
+		43B81C08307EBFFD0009E2EF /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B288AB306DC75300B6CCA7 /* Debug */,
-				43B288AC306DC75300B6CCA7 /* Release */,
+				43B81C09307EBFFD0009E2EF /* Debug */,
+				43B81C0A307EBFFD0009E2EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43B288AE306DC75300B6CCA7 /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy (iOS)" */ = {
+		43B81C0C307EBFFD0009E2EF /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B288AF306DC75300B6CCA7 /* Debug */,
-				43B288B0306DC75300B6CCA7 /* Release */,
+				43B81C0D307EBFFD0009E2EF /* Debug */,
+				43B81C0E307EBFFD0009E2EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43B288B1306DC75300B6CCA7 /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy Extension (macOS)" */ = {
+		43B81C0F307EBFFD0009E2EF /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B288B2306DC75300B6CCA7 /* Debug */,
-				43B288B3306DC75300B6CCA7 /* Release */,
+				43B81C10307EBFFD0009E2EF /* Debug */,
+				43B81C11307EBFFD0009E2EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43B288B5306DC75300B6CCA7 /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy (macOS)" */ = {
+		43B81C13307EBFFD0009E2EF /* Build configuration list for PBXNativeTarget "Indie Wiki Buddy (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B288B6306DC75300B6CCA7 /* Debug */,
-				43B288B7306DC75300B6CCA7 /* Release */,
+				43B81C14307EBFFD0009E2EF /* Debug */,
+				43B81C15307EBFFD0009E2EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 43B28859306DC74F00B6CCA7 /* Project object */;
+	rootObject = 43B81BB7307EBFFA0009E2EF /* Project object */;
 }
